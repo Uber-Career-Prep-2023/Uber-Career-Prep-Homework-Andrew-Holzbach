@@ -1,6 +1,7 @@
 #Fixed size sliding window
 #O(nk) Time Complexity
 #O(n) Space Complexity
+#Took 35 minutes
 def MaxMeanSubArray(arr, k):
     """
     Returns the subarray of arr of size k which has the largest mean.
