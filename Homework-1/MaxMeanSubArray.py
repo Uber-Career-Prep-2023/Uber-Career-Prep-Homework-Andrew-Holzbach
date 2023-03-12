@@ -1,6 +1,6 @@
 #Fixed size sliding window
 #O(nk) Time Complexity
-#O(n) Space Complexity
+#O(0) Space Complexity
 #Took 35 minutes
 def MaxMeanSubArray(arr, k):
     """
