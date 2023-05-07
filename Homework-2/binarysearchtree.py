@@ -6,13 +6,13 @@ class Node:
         self.left = None
 
     def min(self):
-        node = self.root
+        node = self
         while node.left != None:
             node = node.left
         return node.data
     
     def max(self):
-        node = self.root
+        node = self
         while node.right != None:
             node = node.right
         return node.data
@@ -28,12 +28,12 @@ class Node:
             return self.left.contains(val)
         
     def insert(self, val):
-        if self.data > val:
+        if self.data < val:
             if self.right == None:
                 self.right = Node(val)
             else:
                 self.right.insert(val)
-        elif self.data < val:
+        elif self.data > val:
             if self.left == None:
                 self.left = Node(val)
             else:
