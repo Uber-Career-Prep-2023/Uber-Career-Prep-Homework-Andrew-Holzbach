@@ -118,7 +118,7 @@ class LinkedList:
             lst.append(end_node.data)
             end_node = end_node.next
         print(lst)
-
+"""
 l = LinkedList()
 l.insertAtFront(5)
 l.insertAtFront(4)
@@ -130,3 +130,4 @@ l.reverseRecursive()
 l.printList()
 l.reverseIterative()
 l.printList()
+"""
