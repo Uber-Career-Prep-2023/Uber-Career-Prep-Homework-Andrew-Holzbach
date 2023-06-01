@@ -1,4 +1,5 @@
 # 20 minutes
+#fixed-distance two-pointer
 # O(n) time complexity, O(1) space complexity
 import singlylinkedlist
 def dedupSL(sll):

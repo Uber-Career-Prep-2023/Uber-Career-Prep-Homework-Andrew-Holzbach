@@ -1,4 +1,5 @@
 #took 20 minutes
+#pre-order traversal recursion
 #O(n) time complexity O(n) space complexity 
 import binarysearchtree as bse
 
